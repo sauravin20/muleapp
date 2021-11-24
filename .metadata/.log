@@ -178,3 +178,27 @@ Binding(CTRL+F,
 
 !ENTRY org.mule.tooling.editor.model 1 0 2021-11-25 03:29:35.566
 !MESSAGE Unknow Stereotype [org.mule.tooling.client.api.extension.model.StereotypeModel@1217fc5a[type=VALIDATION,namespace=MUNIT,parent=<null>]]. Element path will be associated to processorsThis may affect how debugger works.
+
+!ENTRY org.mule.tooling.maven 1 0 2021-11-25 03:34:27.636
+!MESSAGE  *** 5889 EmbeddedMavenRunner [configuration=DefaultMavenRunnerConfiguration [externalInstallation=false, mavenInstallationHome=null, mavenOpts=]]
+
+!ENTRY org.eclipse.jface 2 0 2021-11-25 03:34:28.493
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 03:34:28.493
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@226ddb69,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@499c0aed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
